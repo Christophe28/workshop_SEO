@@ -456,6 +456,14 @@ nav .content .links {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .flex-left figure {
+    -webkit-box-flex: 0.5;
+        -ms-flex: 0.5;
+            flex: 0.5;
+  }
+}
+
 .flex-right img {
   border-radius: 50%;
   width: 50%;
@@ -490,6 +498,14 @@ nav .content .links {
 
 @media screen and (min-width: 1024px) {
   .flex-right section {
+    -webkit-box-flex: 0.5;
+        -ms-flex: 0.5;
+            flex: 0.5;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .flex-right figure {
     -webkit-box-flex: 0.5;
         -ms-flex: 0.5;
             flex: 0.5;
