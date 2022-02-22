@@ -1,0 +1,70 @@
+.header-BG{
+    @media screen and (max-width: 768px){
+        padding-top: 60px;
+    }
+}
+.index{
+    h1{
+        background-color: $color1;
+        width: 100%;
+    }
+    img{
+        display: block;
+        margin: 0 auto;
+        // @media screen and (min-width: 1024px){
+        //     width: 200%;
+        // }
+    }
+}
+.flex-left{
+    img{
+        width: 50%;
+        @media screen and (min-width: 768px){
+            width: 85%;
+        }
+
+    }
+    @media screen and (min-width: 1024px){
+        display: flex;
+	    justify-content: space-around;
+	    align-items: center;
+        flex-direction: row-reverse;
+    }
+    section{
+        @media screen and (min-width: 1024px){
+            flex: 0.5;
+        }
+    }
+}
+.flex-right{
+    img{
+        border-radius: 50%;
+        width: 50%;
+        margin-top: 3rem;
+        @media screen and (min-width: 768px){
+            width: 60%;
+        }
+        @media screen and (min-width: 1024px){
+            width: 90%;
+        }
+
+    }
+   
+    @media screen and (min-width: 1024px){
+        display: flex;
+	    justify-content: space-around;
+	    align-items: center;
+        width: 100%;
+    }
+    section{
+        @media screen and (min-width: 1024px){
+            flex: 0.5;
+        }
+    }
+}
+.rebond-img{
+    width: 50%;
+    @media screen and (min-width: 768px){
+        width: 85%;
+    }
+}
